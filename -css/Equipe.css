@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+header#cabecalho h1#titulo {
+	position: absolute;
+	left: 530px;
+	top: 0px ;
+	font-family: 'Fredoka One', cursive;
+	font-size: 70pt;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px black;
+	margin: 20px 20px 20px 20px;
+
+}
+
+header#cabecalho hgroup#nomes {
+	position: relative;
+	color: #ffffff;
+	font-size: 17pt;
+	height: 180px;
+	margin: 510px;
+	text-align: center;
+	background-color: #0f3b7a;
+	left: 25px;
+	top: -280px;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px black;
+
+}
+
+
+header#cabecalho h2#nome1 {
+	position: relative;
+	left: ;
+	top: 10px;
+}
+header#cabecalho h2#nome2 {
+	position: relative;
+	left: ;
+	top: -17px;
+}
+header#cabecalho h2#nome3 {
+	position: relative;
+	left: ;
+	top: -48px;
+}
+header#cabecalho h2#nome4 {
+	position: relative;
+	left: ;
+	top: -77px;
+}
+
+/*Formatação do menu*/
+nav#menu ul {
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	font-size: 15pt;
+	top: 150px;
+	left: 350px;
+
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #0f3b7a;
+	padding: 7px 40px;
+	margin: -10px;
+	box-shadow: 2px 2px 2px black;
+	transition: background-color 1s;
+	border-radius: 3px; 
+
+}
+nav#menu li:hover {
+	background-color: #10161f;
+}
+nav#menu h1{
+	display: none;
+}
+nav#menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+ 
